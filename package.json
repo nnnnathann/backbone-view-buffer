@@ -1,0 +1,19 @@
+{
+  "name": "backbone-view-buffer",
+  "version": "0.0.1",
+  "description": "Provides standard interface for swapping out views in a container.",
+  "main": "backbone-view-buffer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nnnnathann/backbone-view-buffer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nnnnathann/backbone-view-buffer/issues"
+  },
+  "homepage": "https://github.com/nnnnathann/backbone-view-buffer"
+}
