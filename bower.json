@@ -1,0 +1,23 @@
+{
+  "name": "backbone-view-buffer",
+  "main": "backbone-view-buffer.js",
+  "version": "0.0.0",
+  "authors": [
+    "Nathan Bleigh <nathan.bleigh@gmail.com>"
+  ],
+  "description": "Swap out views in a container element, uses transitions if available",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.1.2"
+  }
+}
