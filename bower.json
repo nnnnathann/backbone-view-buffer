@@ -1,13 +1,15 @@
 {
   "name": "backbone-view-buffer",
   "main": "backbone-view-buffer.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "authors": [
     "Nathan Bleigh <nathan.bleigh@gmail.com>"
   ],
   "description": "Swap out views in a container element, uses transitions if available",
   "moduleType": [
-    "amd"
+    "amd",
+    "globals",
+    "node"
   ],
   "license": "MIT",
   "ignore": [
@@ -17,7 +19,12 @@
     "test",
     "tests"
   ],
-  "dependencies": {
-    "backbone": "~1.1.2"
-  }
+  "homepage": "https://github.com/nnnnathann/backbone-view-buffer",
+  "keywords": [
+    "backbone",
+    "mixin",
+    "view",
+    "buffer",
+    "animation"
+  ]
 }
