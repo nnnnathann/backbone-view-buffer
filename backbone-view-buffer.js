@@ -9,6 +9,7 @@
     root.ViewBuffer = factory();
   }
 }(this, function () {
+  'use strict';
   var ViewBuffer = {
     setView: function ($el, viewInstance) {
       var self = this, selector;
@@ -16,6 +17,7 @@
         $el.data('viewId', (Math.random() * 10000) + (new Date().getTime()));
       }
       selector = $el.data('viewId');
+      viewInstance._bufferId = selector;
       this._buffers = this._buffers || {};
       viewInstance.transitionIn = viewInstance.transitionIn || ViewBuffer.transitionIn;
       viewInstance.transitionOut = viewInstance.transitionOut || ViewBuffer.transitionOut;
