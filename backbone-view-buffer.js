@@ -17,7 +17,6 @@
         $el.data('viewId', (Math.random() * 10000) + (new Date().getTime()));
       }
       selector = $el.data('viewId');
-      viewInstance._bufferId = selector;
       this._buffers = this._buffers || {};
       viewInstance.transitionIn = viewInstance.transitionIn || ViewBuffer.transitionIn;
       viewInstance.transitionOut = viewInstance.transitionOut || ViewBuffer.transitionOut;
