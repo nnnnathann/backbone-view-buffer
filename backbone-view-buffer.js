@@ -9,7 +9,6 @@
     root.ViewBuffer = factory();
   }
 }(this, function () {
-  'use strict';
   var ViewBuffer = {
     setView: function ($el, viewInstance) {
       var self = this, selector;
