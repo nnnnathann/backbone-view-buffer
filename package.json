@@ -1,6 +1,6 @@
 {
   "name": "backbone-view-buffer",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Provides standard interface for swapping out views in a container.",
   "main": "backbone-view-buffer.js",
   "scripts": {
